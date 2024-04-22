@@ -7,7 +7,7 @@ const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 const numbers = '0123456789';
 const special = '!@#$%^&*';
-
+// added variable to combine all characters
 const addCharacters = upperCase + lowerCase + numbers + special;
 
 // function to generate password
@@ -18,7 +18,7 @@ function generatePassword() {
     password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
     password += numbers[Math.floor(Math.random() * numbers.length)];
     password += special[Math.floor(Math.random() * special.length)];
-
+// while loop to generate password and add characters based on length
     while (length > password.length) {
         password += addCharacters[Math.floor(Math.random() * addCharacters.length)];
     }
