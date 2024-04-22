@@ -22,6 +22,29 @@ body {
     font-size: 35px;
     font-weight: 600;
 }
+
+/* Image on Generate Button */
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+/* Generate Button Styling */
+.container button {
+    border: 0;
+    outline: 0;
+    background: #629677;
+    color: #223843;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* copy image in container */
 .passwordGen img {
     width: 40px;
