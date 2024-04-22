@@ -23,11 +23,11 @@ function generatePassword() {
         password += addCharacters[Math.floor(Math.random() * addCharacters.length)];
     }
     passwordElement.value = password
+    console.log('Password generated');
 }
 
 // added variable for button and event listener
 const button = document.getElementById('genPassword');
-
 button.addEventListener('click', generatePassword);
 
 // function to copy password to clipboard
