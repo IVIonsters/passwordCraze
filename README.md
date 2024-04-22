@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Description](#description)
+* [About The Project](#about-the-project)
 * [Languages](#languages)
 * [Features](#features)
 * [Usage](#usage)
@@ -10,9 +10,9 @@
 * [License](#license)  
 
 
-## Description
+## About The Project
 
-    Random password generator project, project will generate a password 14 characters in length using a uppercase, lowercase, numbers and special characters. 
+<p>Random password generator project, project will generate a password 14 characters in length using a uppercase, lowercase, numbers and special characters. </p>
 
 ## Languages
 
@@ -47,3 +47,4 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Random password generator project, project will generate a password 14 characters in length using a uppercase, lowercase, numbers and special characters. 
