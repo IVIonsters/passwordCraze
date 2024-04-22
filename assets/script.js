@@ -22,4 +22,22 @@ function generatePassword() {
     while (length > password.length) {
         password += addCharacters[Math.floor(Math.random() * addCharacters.length)];
     }
+    passwordElement.value = password
 }
+
+// added variable for button and event listener
+const button = document.getElementById('genPassword');
+
+button.addEventListener('click', generatePassword);
+
+// function to copy password to clipboard
+function copyPassword() {
+    passwordElement.select();
+    navigator.clipboard.writeText(passwordElement.value);
+    console.log('Password copied to clipboard');
+    alert('Password copied to clipboard');
+}
+
+// added variable for copy button and event listener
+const copyButton = document.getElementById('copy');
+copyButton.addEventListener('click', copyPassword);
